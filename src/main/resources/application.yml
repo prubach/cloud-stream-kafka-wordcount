@@ -1,0 +1,6 @@
+spring.cloud.stream:
+  bindings:
+    process-in-0:
+      destination: words
+    process-out-0:
+      destination: counts
